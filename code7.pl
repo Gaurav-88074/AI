@@ -1,2 +1,3 @@
-multi(X,0).
-multi(N1,N2,R):- R is N1*N2.
+multiply(Num1,Num2,Result):- (
+    Result is Num1 * Num2
+).

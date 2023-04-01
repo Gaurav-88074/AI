@@ -1,1 +1,1 @@
-sum(X,Y,Z):- Z is X+Y.
+sumOf(Num1,Num2,Result):- Result is Num1+Num2.

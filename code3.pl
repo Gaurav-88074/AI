@@ -1,2 +1,6 @@
-fact(0,1).
-fact(N,X):- N1 is N-1, fact(N1,Y), X is Y*N,!.
+factorial(0,1).
+factorial(N,Result):- ( N > 0,
+                        N1 is N-1,
+                        factorial(N1 ,Next) , 
+                        Result is N * Next
+                      ). 
